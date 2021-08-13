@@ -1,0 +1,20 @@
+Click==7.0
+cvxopt==1.2.3
+cycler==0.10.0
+joblib==0.13.2
+kiwisolver==1.1.0
+matplotlib==3.1.0
+numpy==1.16.4
+pandas==0.24.2
+Pillow==6.0.0
+pyparsing==2.4.0
+python-dateutil==2.8.0
+pytz==2019.1
+scikit-learn==0.21.2
+scipy==1.3.0
+seaborn==0.9.0
+six==1.12.0
+torch==1.1.0
+torchvision==0.3.0
+
+newdata_all newdata_mlp ../log/DeepSAD/mnist_test ../data --ratio_known_outlier 0.15 --ratio_pollution 0 --lr 0.0001 --n_epochs 150 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True --ae_lr 0.0001 --ae_n_epochs 150 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --normal_class 0 --known_outlier_class 1 --n_known_outlier_classes 1 --seed 20
