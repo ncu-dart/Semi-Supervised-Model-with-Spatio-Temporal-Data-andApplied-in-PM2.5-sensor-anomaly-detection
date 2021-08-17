@@ -25,7 +25,7 @@ class ODDSDataset(Dataset):
         'satimage-2': 'https://www.dropbox.com/s/hckgvu9m6fs441p/satimage-2.mat?dl=1',
         'shuttle': 'https://www.dropbox.com/s/mk8ozgisimfn3dw/shuttle.mat?dl=1',
         'thyroid': 'https://www.dropbox.com/s/bih0e15a0fukftb/thyroid.mat?dl=1',
-        'PM2_5': 'https://www.dropbox.com/s/2tb8uv6eo0ncwxd/PM2_5%20%282%29.mat?dl=1'
+       
     }
 
     def __init__(self, root: str, dataset_name: str, train=True, random_state=None, download=False):
