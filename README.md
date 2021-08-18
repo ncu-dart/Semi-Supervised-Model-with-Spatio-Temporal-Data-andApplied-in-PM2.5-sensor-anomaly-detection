@@ -36,5 +36,5 @@ python main.py description_data SSDO_with_COP-Kmeans --n_labeled_normal 100 --n_
 Due to the large data <heatmap> and <line chart data>, I placed them separately in Releases
 
 ### Reference
-https://github.com/Vincent-Vercruyssen/anomatools
+https://github.com/Vincent-Vercruyssen/anomatools  
 https://github.com/lukasruff/Deep-SAD-PyTorch
