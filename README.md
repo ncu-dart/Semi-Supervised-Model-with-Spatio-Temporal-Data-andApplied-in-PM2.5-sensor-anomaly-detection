@@ -2,7 +2,7 @@
 ## Introduction
 The PM2.5 issue has drawn much attention in Taiwan, and manyinexpensive sensors have been deployed in recent years. However, thesesensors are fragile and susceptible to environmental factors. In addition,the large number of sensors results in low maintenance frequency, so themonitored values returned by a single sensor are unreliable.This thesis compares supervised, unsupervised, and semi-supervisedmethods to identify the problematic sensors.  We prepared the trainingdata by converting monitored values into images, integrated data, and se-quential data to incorporate the spatio-temporal information of the sensors.We obtained sensors’status (normal or abnormal) based on the inspec-tion records provided by the Industrial Technology Research Institute. Weexplored how the ratio of labeled data to unlabeled data influences the per-formance of the semi-supervised models. Experimental results show thatour studied methods outperform the current inspection strategy (randominspection).
 
-Paper Links:
+Paper Links: [結合時空資料的半監督模型並應用於 PM2.5 空污感測器的異常偵測](https://drive.google.com/file/d/1-s-bMio5FEWzdtcqI2hUwjwoNREOh_nf/view?usp=sharing)
 ## Run
 ### Deep SAD
 main.py
